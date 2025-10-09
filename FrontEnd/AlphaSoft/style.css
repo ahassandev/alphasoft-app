@@ -249,3 +249,47 @@ text-align: center;
   margin-right: auto;  
   z-index: 10;
 }
+
+.team-card{
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.team-img {
+  transition: all 0.5s ease;
+}
+
+.team-img:hover{
+  transform: translateY(-10px);
+}
+
+
+.hover-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: black;
+  font-size: 2rem;
+  background: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.team-card:hover .hover-icon {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+
+@media  (max-width: 600px) {
+  .team-text{
+       text-align: center;
+  }
+}
