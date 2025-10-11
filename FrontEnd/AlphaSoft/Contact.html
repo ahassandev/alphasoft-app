@@ -138,48 +138,165 @@
 
 
     <section style="background-color: #001746;">
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-5 px-5">
             <div class="text-center">
                 <button class="btn text-white border-secondary rounded-5 py-2 px-4"
                     style="background-color: #001746;">Contact Us</button>
                 <h2 class="text-white my-4" style="font-size: 60px;">Have questions? reach out!</h2>
             </div>
 
-            <div class="row">
+            <div class="row d-flex align-items-center g-5 my-4">
                 <div class="col-8">
-            <div class="contact-form">
-                <h5 class="text-white">We would love to hear about your company</h5>
-            <form class="row text-white">
-                <div class="col-md-6">
-                    <input type="email" class="form-control rounded-5 py-2 my-3"  placeholder="Your name">
+                    <div class="contact-form">
+                        <h5 class="text-white">We would love to hear about your company</h5>
+                        <form class="row text-white">
+                            <div class="col-md-6">
+                                <input type="email" class="form-control custom-input rounded-5 py-2 my-3"
+                                    placeholder="Your name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control custom-input rounded-5 py-2 my-3"
+                                    placeholder="Email address">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control custom-input rounded-5 py-2 my-3"
+                                    placeholder="Phone number">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control custom-input  rounded-5 py-2 my-3"
+                                    placeholder="Address">
+                            </div>
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <!--  This is the Message Box -->
+                                    <textarea class="form-control mt-3 rounded-3 custom-input" id="message" rows="4"
+                                        placeholder="Type your message here..."></textarea>
+                                </div>
+                                <!-- <input type="text" class="form-control rounded-2 p-5 my-3" placeholder="Message"> -->
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-lg rounded-5 my-3"
+                                    style="background-color: #0054DF; color: white;">Submit now</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <input type="password" class="form-control rounded-5 py-2 my-3" placeholder="Email address">
+
+                <div class="col-4 text-white">
+                    <img src="images/phonecall-icon.png" style="width: 55px;" alt="icon">
+                    <h4>Need help?</h4>
+                    <p><a href="#" class="text-decoration-none hover-contact text-color my-0">
+                            +123 456 7891</a> <br>
+                        <a href="#" class="text-decoration-none text-color hover-contact my-0">ahmad@gmail.com</a>
+                    </p>
+
+                    <div class="mt-5">
+                        <img src="images/location-icon (1).png" style="width: 55px;" alt="icon">
+                        <h4>Location info</h4>
+                        <p class="mt-3 text-color">Pak AveNew Sahiwal</p>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <input type="text" class="form-control rounded-5 py-2 my-3"  placeholder="Phone number">
-                </div>
-                <div class="col-6">
-                    <input type="text" class="form-control rounded-5 py-2 my-3" placeholder="Address">
-                </div>
-                <div class="col-12">
-                    <input type="text" class="form-control rounded-2 p-5 my-3" placeholder="Message">
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-lg btn-primary rounded-5 my-3">Submit now</button>
-                </div>
-            </form>
-            </div>
-            </div>
             </div>
         </div>
     </section>
 
+    <section  style="background-color: #EFF3FA; padding: 5rem 0 11rem 0;">
+        <div class="container-fluid px-4 text-center">
+            <small style="color: #001746; font-size: 16px;"><span><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-star text-primary mb-1" viewBox="0 0 16 16">
+                        <path
+                            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                    </svg></span>
+                FAQ FOR AlphaSoft
+            </small>
+            <h2 style="font-size: 55px; color: #001746;">Some most popular <span
+                    style="border-color: #001746; border-bottom: 3px solid;">question</span></h2>
 
-         <section style="margin-bottom: -60px; z-index: 2; position: relative; margin-top: 40px;">
+            <div class="row my-5">
+                <div class="col-4 ">
+                    <img src="images/FAQ-IMG.png" class="rounded-5 img-fluid" alt="img">
+                </div>
+
+                    <div class="col-8">
+                        <div class="accordion" id="accordionFlushExample">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="true"
+                                        aria-controls="flush-collapseOne">
+                                        How should I determine pricing for products/services?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Determining pricing involves calculating production and overhead costs, analyzing market demand and competitor pricing, and aligning your strategy with customer value perceptions and regular review and adjustments ensure competitiveness and profitability in the market.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Do I need a detailed business plan to start?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        A detailed business plan is crucial for outlining your goals, defining your business model, conducting market research, planning finances, and attracting investors and serves as a roadmap for startup success and growth.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        What are variuos effective marketing strategies for startups?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        UEffective marketing strategies for startups include digital marketing, content marketing, and influencer partnerships, networking at events, email campaigns, and customer referrals to build brand awareness and attract customers cost-effectively.
+                                    </div>
+                                </div>
+                            </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        What are the Key matrics should I track for success?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        UEffective marketing strategies for startups include digital marketing, content marketing, and influencer partnerships, networking at events, email campaigns, and customer referrals to build brand awareness and attract customers cost-effectively.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <section style="margin-bottom: -60px; z-index: 2; position: relative; margin-top: -8rem;">
         <div class="container rounded-4 py-5" style="background-color: #0054DF;">
             <div class="d-flex justify-content-between align-items-center">
-                <div class="text-light">
+                <div class  ="text-light">
                     <p>Get exclusive updates</p>
                     <h4 class="fs-2">Sign up to receive our newsletter</h4>
                 </div>
@@ -260,7 +377,8 @@
                         style="width: 470px; height: 270px; background-color: #0D234F;">
                         <div class="hover-style">
                             <h5 class="text-light">Adress</h5>
-                            <p class="text-secondary"> <a class="text-decoration-none text-secondary" href="#">570 8th Ave, New York, NY 10018 United States</a>.</p>
+                            <p class="text-secondary"> <a class="text-decoration-none text-secondary" href="#">570 8th
+                                    Ave, New York, NY 10018 United States</a>.</p>
 
                             <h5 class="text-white">Opening hours</h5>
                             <div class="d-flex justify-content-between align-items-center">
@@ -270,8 +388,10 @@
                                 </div>
 
                                 <div class="text-white  hover-style">
-                                    <p class="text-secondary"> <a class="text-decoration-none text-secondary" href="#">09.00 - 05:00</a></p>
-                                    <p class="text-secondary"> <a class="text-decoration-none text-secondary" href="#">09.00 - 05:00</a></p>
+                                    <p class="text-secondary"> <a class="text-decoration-none text-secondary"
+                                            href="#">09.00 - 05:00</a></p>
+                                    <p class="text-secondary"> <a class="text-decoration-none text-secondary"
+                                            href="#">09.00 - 05:00</a></p>
                                 </div>
                             </div>
                         </div>

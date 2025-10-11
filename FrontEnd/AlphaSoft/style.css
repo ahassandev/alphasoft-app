@@ -299,8 +299,65 @@ text-align: center;
 
 .contact-form{
   background-color: #1A2F59;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 30px;
   border: 1px solid rgb(173, 171, 171);
 }
+
+.custom-input{
+  background-color: #31446A !important;
+  color: white !important;
+  border: none;
+}
+
+ .custom-input::placeholder {
+      color: #cccccc;
+    }
+.text-color{
+  color: #cccccc;
+}
+    form button:hover{
+      background-color: #001746 !important;
+    }
+
+    .hover-contact:hover{
+      color: white;
+    }
+
+    .accordion-item {
+      border: 1px solid #d9d9d9 !important;
+      border-radius: 10px !important;
+      margin-bottom: 20px; 
+      overflow: hidden;
+      background-color: white;
+    }
+
+    .accordion-button {
+      font-weight: 500;
+      font-size: 20px;
+      color: #001746;
+      background-color: white;
+      box-shadow: none !important;
+      border: none;
+      padding: 25px 20px;
+    }
+
+    .accordion-button:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #f0f4ff; 
+      color: #0d6efd; 
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .accordion-body {
+      background-color: white;
+      text-align: start;
+      padding: 15px 20px;
+      font-size: 16px;
+      color: #333;
+    }
 
