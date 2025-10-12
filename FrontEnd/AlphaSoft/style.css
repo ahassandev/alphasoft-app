@@ -34,6 +34,11 @@ header a {
   width: 100%;
   margin-left: 0px !important;
 }
+
+.fs-s{
+  font-size: 30px;
+}
+
 }
 
 
@@ -41,6 +46,14 @@ header a {
   .mt-md{
     margin-top: 20px;
   }
+
+  .mb-md{
+    margin-bottom: 20px;
+  }
+.center-md{
+  text-align: center;
+}
+
 }
 
 header a:hover{
